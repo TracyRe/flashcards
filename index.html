@@ -13,8 +13,10 @@
     <div class="container">
       <div class="jumbotron">
         <h1>Javascript Flashcards</h1>
+        <button type="button" name="button" id="showAll">Show All Definitions</button>
+        <button type="button" name="button" id="hideAll">Hide All Definitions</button>
       </div>
-      
+
       <div class="flashcard">
         <div class="panel term" id="term1">
           {{ Term1 }}
@@ -28,11 +30,11 @@
       </div>
 
       <div class="flashcard">
-        <div class="panel term">
+        <div class="panel term hide">
           {{ Term2 }}
         </div>
 
-        <div class="panel definition hide">
+        <div class="panel definition ">
           {{ Definition2 }}
         </div>
       </div>
@@ -58,11 +60,11 @@
       </div>
 
       <div class="flashcard">
-        <div class="panel term">
+        <div class="panel term hide">
           {{ Term3 }}
         </div>
 
-        <div class="panel definition hide">
+        <div class="panel definition ">
           {{ Definition3 }}
         </div>
       </div>
@@ -78,11 +80,11 @@
       </div>
 
       <div class="flashcard">
-        <div class="panel term">
+        <div class="panel term hide">
           {{ Term3 }}
         </div>
 
-        <div class="panel definition hide">
+        <div class="panel definition ">
           {{ Definition3 }}
         </div>
       </div>

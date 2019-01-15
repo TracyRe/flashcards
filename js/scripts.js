@@ -8,4 +8,15 @@ $(document).ready(function(){
     $("#def1").addClass("hide");
     $("#term1").removeClass("hide");
   });
+
+  $("#showAll").click(function(){
+    $(".term").addClass("hide");
+    $(".definition").removeClass("hide");
+
+  });
+  $("#hideAll").click(function(){
+    $(".term").removeClass("hide");
+    $(".definition").addClass("hide");
+  });
+
 });

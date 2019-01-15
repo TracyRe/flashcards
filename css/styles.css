@@ -27,3 +27,7 @@
 .flashcard {
   float: left;
 }
+
+.definition {
+  background-color: yellow;
+}
