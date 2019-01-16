@@ -12,7 +12,27 @@
   width: 250px;
   height: 420px;
   margin-right: 20px;
-  padding: 40px 20px 20px 20px;
+}
+
+.panel h2 {
+  color: #527baa;
+  text-align: center;
+  margin-top: 60%;
+}
+
+.panel-heading {
+  background-color: #527baa;
+  padding: 10px auto 10px auto;
+}
+
+.panel-heading h3 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+.panel-body {
+
 }
 
 .hide {
@@ -29,5 +49,4 @@
 }
 
 .definition {
-  background-color: yellow;
 }
