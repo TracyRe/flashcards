@@ -1,42 +1,15 @@
 $(document).ready(function(){
-  $("#alert-term").click(function(){
-    $("#alert-def").removeClass("hide");
-    $("#alert-term").addClass("hide");
-  });
-
-  $("#alert-def").click(function(){
-    $("#alert-def").addClass("hide");
-    $("#alert-term").removeClass("hide");
-  });
-
-  $("#arguments-term").click(function(){
-    $("#arguments-def").removeClass("hide");
-    $("#arguments-term").addClass("hide");
-  });
-
-  $("#arguments-def").click(function(){
-    $("#arguments-def").addClass("hide");
-    $("#arguments-term").removeClass("hide");
-  });
-
-  $("#attributes-term").click(function(){
-    $("#attributes-def").removeClass("hide");
-    $("#attributes-term").addClass("hide");
-  });
-
-  $("#attributes-def").click(function(){
-    $("#attributes-def").addClass("hide");
-    $("#attributes-term").removeClass("hide");
+  $(".flashcard").click(function(){
+    $(this).children().toggle();
   });
 
   $("#showAll").click(function(){
-    $(".term").addClass("hide");
-    $(".definition").removeClass("hide");
-  });
+    $(".definition").css("display", "block");
+    $(".term").css("display", "none");
+    });
 
   $("#hideAll").click(function(){
-    $(".term").removeClass("hide");
-    $(".definition").addClass("hide");
+    $(".term").css("display", "block");
+    $(".definition").css("display", "none");
   });
-
 });

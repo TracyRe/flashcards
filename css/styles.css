@@ -49,4 +49,9 @@
 }
 
 .definition {
+  display: none;
+}
+
+.term {
+  display: block;
 }
