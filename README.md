@@ -12,7 +12,7 @@ As of Jan 15 2019, needs all definitions. I would like to add some animation to 
 
 ## Setup/Installation Requirements
 
-* View at https://tracyre.github.io/flashcards
+* View at https://tracyre.github.io/flashcards/
 * Clone from https://github.com/TracyRe/flashcards.git
 * Open in browser of your choice
 * Edit files as desired
