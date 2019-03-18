@@ -4,9 +4,13 @@
     <link rel="stylesheet" href="./css/bootstrap.css" type="text/css" media="all">
     <link rel="stylesheet" href="./css/styles.css" type="text/css" media="all">
     <script type="text/javascript" src="./js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="./js/jquery.flip.min.js"></script>
     <script type="text/javascript" src="./js/scripts.js"></script>
+    <!-- <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
+
+
     <title>Javascript Flashcards</title>
   </head>
   <body>
@@ -16,7 +20,7 @@
       <div class="jumbotron">
         <h1>Javascript Flashcards</h1>
         <div class="button-row">
-          <button class="btn-primary" type="button" name="button" id="showAll">Show Definitions</button>
+          <button type="button" name="button" id="showAll"class="btn-primary">Show Definitions</button>
           <button class="btn-info" type="button" name="button" id="hideAll">Hide Definitions</button>
         </div>
       </div>
@@ -25,10 +29,12 @@
       <div class="flashcard-content">
 
         <!-- ********* ALERT *********** -->
-        <div class="flashcard">
-          <div class="panel term" id="alert-term">
-            <h2>Alert</h2>
-          </div>
+
+          <div class="flashcard">
+
+            <div class="panel term" >
+              <h2>Alert</h2>
+            </div>
 
           <div class="panel definition">
             <div class="panel-heading">
@@ -41,7 +47,9 @@
         </div>
 
         <!-- ********* ARGUMENTS *********** -->
+
         <div class="flashcard">
+
           <div class="panel term">
             <h2>Arguments</h2>
           </div>
@@ -58,6 +66,7 @@
 
         <!-- ********* ATTRIBUTES *********** -->
         <div class="flashcard">
+
           <div class="panel term">
             <h2>Attributes</h2>
           </div>
@@ -70,6 +79,7 @@
               {{ Definition1 }}
             </div>
           </div>
+
         </div>
 
         <!-- ********* BOOLEANS *********** -->
@@ -329,6 +339,11 @@
         </div>
       </div>
     </div>
+
+        <!-- <script type="text/javascript">
+          var card = document.querySelector('div#flashcard-content');
+          console.log(card);
+        </script> -->
 
   </body>
 </html>
